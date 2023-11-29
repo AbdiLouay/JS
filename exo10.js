@@ -13,7 +13,7 @@ Madiv = document.getElementById("Methode4");
 Madiv.addEventListener("keydown", UneProcedureQuiEcrit);
 
 function UneProcedureQuiEcrit(evenement) {
-evenement.target.innerHTML = "On a appuyé sur : "+evenefdfment.key;
+evenement.target.innerHTML = "On a appuyé sur : "+evenement.key;
 }
 
 function UneProcedureQuiChangeLetext(evenement) {
