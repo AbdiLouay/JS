@@ -34,3 +34,13 @@ monDiv.addEventListener("click", function() {
   // Changer la classe CSS de l'élément div
   monDiv.className = "nouvelleClasse";
 });
+
+function changerVisibilite(visible) {
+    var div = document.getElementById("monDiv2");
+    if (visible) {
+      div.style.visibility = "visible";
+    } else {
+      div.style.visibility = "hidden";
+    }
+  }
+  
