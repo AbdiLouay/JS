@@ -10,3 +10,11 @@ DIV{}
     height: 100px;
     background-color: blueviolet;
 }
+
+.ancienneClasse {
+    background-color: red;
+  }
+  
+  .nouvelleClasse {
+    background-color: blue;
+  }

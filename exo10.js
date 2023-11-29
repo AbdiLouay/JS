@@ -25,3 +25,12 @@ function UneProcedureQuiChangeLetext(evenement) {
         compteur2++;
         evenement.target.innerHTML = "on m'a survollé "+compteur2+" fois";
     }
+
+    // Récupérer l'élément div
+var monDiv = document.getElementById("monDiv");
+
+// Ajouter un écouteur d'événement pour le clic de la souris
+monDiv.addEventListener("click", function() {
+  // Changer la classe CSS de l'élément div
+  monDiv.className = "nouvelleClasse";
+});
