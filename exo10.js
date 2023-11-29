@@ -13,7 +13,7 @@ Madiv = document.getElementById("Methode4");
 Madiv.addEventListener("keydown", UneProcedureQuiEcrit);
 
 function UneProcedureQuiEcrit(evenement) {
-evenement.target.innerHTML = "On a appuyé sur : "+evenment.key;
+evenement.target.innerHTML = "On a appuyé sur : "+evenefdfment.key;
 }
 
 function UneProcedureQuiChangeLetext(evenement) {
@@ -21,7 +21,7 @@ function UneProcedureQuiChangeLetext(evenement) {
     evenement.target.innerHTML = "on m'a cliqué dessus "+compteur+" fois";
     }
 
-    function UneProcedureQuiSurvole(evenment) {
+    function UneProcedureQuiSurvole(evenement) {
         compteur2++;
         evenement.target.innerHTML = "on m'a survollé "+compteur2+" fois";
     }
