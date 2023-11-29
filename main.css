@@ -1,0 +1,13 @@
+.divC{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+.divD{
+    float: left;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+}
