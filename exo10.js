@@ -12,11 +12,11 @@ Madiv.addEventListener("mouseover", UneProcedureQuiSurvole);
 Madiv = document.getElementById("Methode4");
 Madiv.addEventListener("keydown", UneProcedureQuiEcrit);
 
-function UneProcedureQuiEcrit(evenment) {
+function UneProcedureQuiEcrit(evenement) {
 evenement.target.innerHTML = "On a appuyé sur : "+evenment.key;
 }
 
-function UneProcedureQuiChangeLetext(evenment) {
+function UneProcedureQuiChangeLetext(evenement) {
     compteur++;
     evenement.target.innerHTML = "on m'a cliqué dessus "+compteur+" fois";
     }
