@@ -44,3 +44,15 @@ function changerVisibilite(visible) {
     }
   }
   
+
+
+
+// HTML
+
+  //<div id="Methode2" classe ="divD">Clic moi dessus</div>
+//<div id="Methode3" classe ="divD">Survole moi dessus</div>
+//<div id="Methode4" classe ="divD" tabindex="0">Appui au clavier</div>
+//<div id="monDiv" class="ancienneClasse">Click</div>
+//<div id="monDiv2" onmouseover="changerVisibilite(true)" onmouseout="changerVisibilite(false)">
+//   ne me survole pas ou je disparait !
+//  </div>
